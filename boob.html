@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ukonnect Staffing | People. Positions. Perfectly Connected.</title>
+<style>
+  :root{
+    --primary:#0b2e4f;
+    --accent:#e08a1e;
+    --light:#f4f7fa;
+    --text:#2c2c2c;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:Arial, Helvetica, sans-serif;color:var(--text);line-height:1.6;}
+  a{text-decoration:none;color:inherit;}
+  header{background:var(--primary);color:#fff;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;}
+  header .logo{font-weight:bold;font-size:1.4rem;}
+  nav ul{list-style:none;display:flex;gap:1.5rem;flex-wrap:wrap;}
+  nav ul li a{font-weight:600;}
+  nav ul li a:hover{color:var(--accent);}
+  .hero{background:linear-gradient(135deg,var(--primary),#123a63);color:#fff;text-align:center;padding:4rem 1.5rem;}
+  .hero h1{font-size:2.5rem;letter-spacing:2px;}
+  .hero p{margin-top:1rem;font-size:1.1rem;opacity:0.9;}
+  .services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;padding:3rem 2rem;background:var(--light);}
+  .service-card{background:#fff;border-radius:8px;padding:1.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.08);text-align:center;transition:transform .2s;}
+  .service-card:hover{transform:translateY(-5px);}
+  .service-card h3{color:var(--primary);margin-bottom:0.5rem;}
+  .service-card a{color:var(--accent);font-weight:600;}
+  section.block{padding:3rem 2rem;max-width:1100px;margin:0 auto;}
+  section.block h2{color:var(--primary);text-transform:uppercase;font-size:1rem;letter-spacing:2px;margin-bottom:0.5rem;}
+  section.block h3{font-size:1.8rem;margin-bottom:1rem;}
+  .workshops, .industries{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;margin-top:1.5rem;}
+  .workshop-card, .industry-card{background:var(--light);border-left:4px solid var(--accent);padding:1rem 1.2rem;border-radius:6px;}
+  .workshop-card .num{color:var(--accent);font-weight:bold;font-size:0.9rem;}
+  .cta{background:var(--accent);color:#fff;text-align:center;padding:3rem 1.5rem;}
+  .cta h2{font-size:1.8rem;margin-bottom:0.5rem;}
+  .cta a.btn{display:inline-block;margin-top:1rem;background:#fff;color:var(--accent);padding:0.75rem 2rem;border-radius:30px;font-weight:bold;}
+  footer{background:var(--primary);color:#fff;padding:2.5rem 2rem 1rem;}
+  .footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1.5rem;max-width:1100px;margin:0 auto;}
+  .footer-grid h4{margin-bottom:0.8rem;color:var(--accent);}
+  .footer-grid ul{list-style:none;}
+  .footer-grid ul li{margin-bottom:0.4rem;}
+  .footer-bottom{text-align:center;margin-top:2rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,0.15);font-size:0.85rem;opacity:0.8;}
+  .social{display:flex;gap:1rem;margin-top:0.8rem;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Ukonnect Staffing</div>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#industries">Industries</a></li>
+      <li><a href="#workshop">Workshop</a></li>
+      <li><a href="#payment">Payment</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>PEOPLE. POSITIONS. PERFECTLY UKONNECTED.</h1>
+  <p>Connecting ambitious professionals with forward-thinking organizations across the USA.</p>
+</section>
+
+<section class="services" id="services">
+  <div class="service-card">
+    <h3>Outsourcing Solutions</h3>
+    <a href="#">Read more →</a>
+  </div>
+  <div class="service-card">
+    <h3>Payroll &amp; Compliance</h3>
+    <a href="#">Read more →</a>
+  </div>
+  <div class="service-card">
+    <h3>Executive Search</h3>
+    <a href="#">Read more →</a>
+  </div>
+  <div class="service-card">
+    <h3>Contract Staffing</h3>
+    <a href="#">Read more →</a>
+  </div>
+</section>
+
+<section class="block" id="workshop">
+  <h2>Our Online Workshop</h2>
+  <h3>Ukonnect Training Programs</h3>
+  <p>Boost your career with our industry-focused online training courses, crafted to match employer expectations and USA job market demands. Whether you are entering the job market or looking to advance your skills, experiences, and overall knowledge, being the best staffing agency in USA, our flexible learning options and personalized guidance strongly equip you with in-demand skills that USA employers value — opening doors to better roles and brighter opportunities.</p>
+
+  <div class="workshops">
+    <div class="workshop-card">
+      <div class="num">Workshop 01</div>
+      <strong>Online Business Analyst Training</strong>
+    </div>
+    <div class="workshop-card">
+      <div class="num">Workshop 02</div>
+      <strong>Online Data Analyst Training</strong>
+    </div>
+    <div class="workshop-card">
+      <div class="num">Workshop 03</div>
+      <strong>Online Python Training</strong>
+    </div>
+    <div class="workshop-card">
+      <div class="num">Workshop 04</div>
+      <strong>Online Java Training</strong>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="industries">
+  <h2>Our Industries</h2>
+  <h3>Empowering USA Industry with Trusted Talent Solutions</h3>
+  <p>As the leading recruitment agency in the USA, we specialize in delivering innovative recruitment and workforce solutions for USA industries. Our team is passionate about connecting ambitious professionals with forward-thinking organizations — driving business growth and unlocking career potential across sectors.</p>
+
+  <div class="industries">
+    <div class="industry-card">
+      <h4>IT &amp; Technology</h4>
+      <p>Our IT Recruitment solutions bridge the gap between cutting-edge businesses and elite IT professionals, ranging from software engineers and data experts to cybersecurity specialists and tech support.</p>
+    </div>
+    <div class="industry-card">
+      <h4>Finance &amp; Accounting</h4>
+      <p>We connect businesses with top finance talent, from accountants and auditors to payroll specialists and compliance professionals.</p>
+    </div>
+    <div class="industry-card">
+      <h4>Healthcare</h4>
+      <p>We deliver compassionate and skilled healthcare talent to US hospitals, care homes, and private clinics nationwide.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="payment">
+  <h2>Let's Ukonnect!</h2>
+  <p>Whether you're hiring your next top performer or searching for a job that inspires you, Ukonnect Staffing is here to help you take the next step — confidently and seamlessly.</p>
+  <a class="btn" href="#">Contact Us</a>
+</section>
+
+<footer id="about">
+  <div class="footer-grid">
+    <div>
+      <h4>Ukonnect Staffing</h4>
+      <p>Ukonnect Staffing connects businesses with skilled, reliable talent.</p>
+      <div class="social">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter-x</a>
+        <a href="#">Instagram</a>
+        <a href="#">Linkedin</a>
+      </div>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul><li>info@ukonnectstaffing.com</li></ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li>Temporary Staffing</li>
+        <li>Permanent Recruitment</li>
+        <li>Contract Staffing</li>
+        <li>Payroll &amp; Compliance</li>
+        <li>Outsourcing Solutions</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Workshops</h4>
+      <ul>
+        <li>Business Analyst Training</li>
+        <li>Data Analyst Training</li>
+        <li>Java Training</li>
+        <li>SAS Analyst Training</li>
+        <li>Quality Analyst Training</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>Ukonnect Staffing © 2026. All rights reserved.</p>
+    <p>Our Blog | Privacy Policy | Terms &amp; Conditions</p>
+  </div>
+</footer>
+
+</body>
+</html>
